@@ -1,4 +1,4 @@
-# Command for executable in pyinstaller: pyinstaller Pantalla_principal.py --onefile --add-binary "chromedriver.exe;."
+# Command for executable in pyinstaller: pyinstaller Pantalla_principal.py --onefile
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox

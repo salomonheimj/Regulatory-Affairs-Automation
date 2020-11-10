@@ -70,7 +70,7 @@ driver.find_element_by_xpath('//*[@id="form1:seleccionGrupo_1"]').click()
 
 driver.find_element_by_xpath('//*[@id="form1:popupButtonCal"]/button').click()
 
-from_day = driver.find_element_by_xpath("//td[not(contains(@class,'ui-datepicker-div'))]/a[text()='" + day_to_test + "']").click()
+from_day = driver.find_element_by_xpath("//td[not(contains(@class,'ui-datepicker-div'))]/a[text()='" + new_day + "']").click()
 
 driver.find_element_by_xpath('//*[@id="form1:j_idt22"]').click()
 
